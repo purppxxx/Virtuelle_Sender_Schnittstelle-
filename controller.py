@@ -23,8 +23,8 @@ logging.basicConfig(
     level=logging.DEBUG,
     format="%(asctime)s [%(levelname)s] %(message)s",
     handlers=[
-        logging.FileHandler("debug_log.txt", mode='a'),
         logging.StreamHandler(sys.stdout)
+        
     ]
 )
 
